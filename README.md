@@ -1,6 +1,7 @@
 ## 参考文档
 1. https://tech.meituan.com/2019/09/05/java-bytecode-enhancement.html
 2. https://mp.weixin.qq.com/s/UeUHUc6bQYMFT_L_Rkd74w
+3. https://www.jianshu.com/p/1f1049d0a0f4
 
 ## 编译打包步骤
 1. 先在IDEA里运行Main函，在target目录中会生成编译好的.class文件
