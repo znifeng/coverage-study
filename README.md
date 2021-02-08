@@ -8,7 +8,7 @@
 2. 在target/classes目录下分别创建MANIFEST_AGENT.MF和MANIFEST_APP.MF 内容见文件
 3. 执行打包命令
      `jar -cvfm myAgent.jar MANIFEST_AGENT.MF agent`
-     `jar -cvfm myApp.jar MANIFEST_APP.MF agent`
+     `jar -cvfm myApp.jar MANIFEST_APP.MF app`
 4. 测试结果
     `java -jar myApp.jar`
     `java -javaagent:myAgent.jar -jar myApp.jar`
